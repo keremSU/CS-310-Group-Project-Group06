@@ -4,9 +4,12 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.11.0
+  sdk: ^3.11.0z
 
 dependencies:
+ cloud_firestore: ^5.6.0
+  firebase_auth: ^5.3.0
+  firebase_core: ^3.8.0
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
